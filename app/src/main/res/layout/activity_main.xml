@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ftech.tantiauguri.MainActivity">
+    <ImageView
+        android:id="@+id/imgparty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/party"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Tanti Auguri Carla"
+        android:textColor="#23dd15"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Da Mamma e Ferdy"
+        android:textColor="#99ff00"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        />
+
+</RelativeLayout>
